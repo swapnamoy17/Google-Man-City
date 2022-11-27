@@ -37,6 +37,15 @@ IMPALA benchmarks.</br>
 
 ### 11 v 11
 
+| Agents | Residual connections | Depthwise |
+| --- | --- | --- |
+| QRDQN@3M | 0.40 +/- 1.95 | 1.29+/-0.94 |
+| PPO @3M | -0.662 +/- 0.97 | 2.49+/-1.87 |
+
+<span>Mean And Standard Deviations Of Rewards With Checkpoints Rewards</br> 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;On Evaluations For 11-V-11 Easy Scenario</br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(Residual Connections - Google, Depthwise - Ours)</span>
+
 | Agents | Easy | Medium | Hard |
 | ------ | ---- | ------ | ---- |
 | QRDQN@3M | 1.29+/-0.94 | 0.68+/-0.86 | -0.35+/-0.90 |
